@@ -27,11 +27,11 @@ Wrangler 会根据 `wrangler.toml` 将 `dist` 目录作为静态资源发布。
 
 ## 下载地址配置
 
-页面默认使用这些路径：
+页面默认使用 GitHub Release `V1.0.0` 的下载地址：
 
-- `/downloads/svga-vap-lab-mac-arm64.zip`
-- `/downloads/svga-vap-lab-mac-x64.zip`
-- `/downloads/svga-vap-lab-windows-x64.exe`
+- `https://github.com/wenshiyun77/svgavap-Web/releases/download/V1.0.0/SVGA.VAP.Lab-0.1.17-mac-arm64.zip`
+- `https://github.com/wenshiyun77/svgavap-Web/releases/download/V1.0.0/SVGA.VAP.Lab-0.1.17-mac-x64.zip`
+- `https://github.com/wenshiyun77/svgavap-Web/releases/download/V1.0.0/SVGA.VAP.Lab-0.1.17-win-x64.exe`
 
 也可以通过环境变量覆盖：
 

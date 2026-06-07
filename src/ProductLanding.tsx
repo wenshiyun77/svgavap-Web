@@ -20,19 +20,25 @@ const downloads = [
   {
     label: 'Mac Apple 芯片',
     detail: 'M1 / M2 / M3 / M4',
-    href: import.meta.env.VITE_DOWNLOAD_MAC_ARM64 || '/downloads/svga-vap-lab-mac-arm64.zip',
+    href:
+      import.meta.env.VITE_DOWNLOAD_MAC_ARM64 ||
+      'https://github.com/wenshiyun77/svgavap-Web/releases/download/V1.0.0/SVGA.VAP.Lab-0.1.17-mac-arm64.zip',
     className: 'bg-[linear-gradient(135deg,#00e5ff,#2563eb)] text-white shadow-[0_18px_50px_rgba(37,99,235,0.36)] hover:brightness-110',
   },
   {
     label: 'Mac Intel 芯片',
     detail: 'Intel macOS',
-    href: import.meta.env.VITE_DOWNLOAD_MAC_X64 || '/downloads/svga-vap-lab-mac-x64.zip',
+    href:
+      import.meta.env.VITE_DOWNLOAD_MAC_X64 ||
+      'https://github.com/wenshiyun77/svgavap-Web/releases/download/V1.0.0/SVGA.VAP.Lab-0.1.17-mac-x64.zip',
     className: 'bg-[linear-gradient(135deg,#ffb000,#ff4d00)] text-white shadow-[0_18px_50px_rgba(255,77,0,0.34)] hover:brightness-110',
   },
   {
     label: 'Windows x64',
     detail: 'Windows 10 / 11',
-    href: import.meta.env.VITE_DOWNLOAD_WINDOWS_X64 || '/downloads/svga-vap-lab-windows-x64.exe',
+    href:
+      import.meta.env.VITE_DOWNLOAD_WINDOWS_X64 ||
+      'https://github.com/wenshiyun77/svgavap-Web/releases/download/V1.0.0/SVGA.VAP.Lab-0.1.17-win-x64.exe',
     className: 'bg-[linear-gradient(135deg,#4f46e5,#0ea5e9)] text-white shadow-[0_18px_50px_rgba(14,165,233,0.34)] hover:brightness-110',
   },
 ];
