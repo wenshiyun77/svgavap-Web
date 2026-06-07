@@ -14,6 +14,17 @@ npm run dev
 npm run build
 ```
 
+## Cloudflare 部署
+
+Workers & Pages 构建设置：
+
+- Framework preset: None
+- Build command: `npm run build`
+- Deploy command: `npx wrangler deploy`
+- Root directory: `/`
+
+Wrangler 会根据 `wrangler.toml` 将 `dist` 目录作为静态资源发布。
+
 ## 下载地址配置
 
 页面默认使用这些路径：
