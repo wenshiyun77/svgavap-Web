@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    background: #050607;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    background: #050607;
+    color: white;
+    font-family: "Noto Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
